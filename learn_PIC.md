@@ -143,7 +143,8 @@ TIMLOOP1            ;ラベルはサイクル0
 ### 割り込み処理(外部割込み)
 
 #### 割り込みルーチン  
-![割込みルーチン](https://github.com/kanqn/learn_PIC/assets/86160454/3e98be47-6be0-4264-bd8d-ecfebaf3f4d9)
+![275395503-3e98be47-6be0-4264-bd8d-ecfebaf3f4d9](https://github.com/CHAAAHAN/learn_PIC/assets/171503379/788357ff-b2b2-4b85-99fb-0135cf86b470)
+
 
 #### 具体的な割り込み手順  
 
@@ -152,7 +153,8 @@ TIMLOOP1            ;ラベルはサイクル0
 INTCONレジスタ: 割り込み条件の設定と割り込みが発生したかどうかチェックする  
 例: RB0/INT外部割込みを使う  
 →GIEビットとINTEビットに1をセットする(割り込みが発生するとINTFビットが1になる)  
-![intconx](https://github.com/kanqn/learn_PIC/assets/86160454/02b6ab98-ca7e-4152-b5cb-85fdaa5cde4b)  
+
+![274806103-02b6ab98-ca7e-4152-b5cb-85fdaa5cde4b](https://github.com/CHAAAHAN/learn_PIC/assets/171503379/2e14e754-85da-4c13-b738-14050b6ef7e9)
 
   
 OPTION_REGレジスタ: 外部割込み等の各種設定をする  
